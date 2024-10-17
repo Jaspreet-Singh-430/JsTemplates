@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e526f264d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="temp.css" />
+  </head>
+  <body>
+    <div id="flex" style="display: flex; margin: 7%; padding: 5px">
+      <div style="background: white" id="form">
+        <div style="text-align: center; margin-bottom: 30px">
+          <object
+            style="margin-top: 100px; width: 50%"
+            type="image/svg+xml"
+            data="../Group 1.svg"
+          ></object>
+          <object
+            style="margin-top: 30px; width: 50%"
+            data="../Login into your account.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div style="margin: 5%">
+          <p>Email address</p>
+          <div style="display: flex">
+            <input
+              id="email"
+              type="text"
+              placeholder="alex@gmail.com"
+              style="width: 85%; border-radius: 8.08px 0px 0px 8.08px"
+            />
+            <button
+              type="button"
+              id="mail"
+              style="
+                width: 15%;
+                margin-top: 0;
+                border-radius: 0px 8.08px 8.08px 0px;
+              "
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </button>
+          </div>
+          <p>Password</p>
+          <div style="display: flex">
+            <input
+              id="pwd"
+              type="password"
+              placeholder="enter your password"
+              style="width: 85%; border-radius: 8.08px 0px 0px 8.08px"
+            />
+            <button
+              type="button"
+              id="btn"
+              style="
+                width: 15%;
+                margin-top: 0;
+                border-radius: 0px 8.08px 8.08px 0px;
+              "
+            >
+              <i class="fa-solid fa-lock"></i>
+            </button>
+          </div>
+          <a href="#" style="float: right">Forgot Password?</a>
+          <input type="button" value="Login now" onclick="sub()" />
+          <object
+            style="margin-top: 30px; width: 100%"
+            data="../Group 6.svg"
+            type="image/svg+xml"
+          ></object>
+          <input
+            type="button"
+            value="Signup now"
+            id="sign"
+            onclick="sub()"
+            style="margin-top: 30px"
+          />
+        </div>
+        <div style="text-align: center">
+          <span id="span"></span>
+        </div>
+      </div>
+      <div id="img" style="width: 60%; background: #f1f3f6; text-align: center">
+        <object
+          data="../Mobile login-pana 1.svg"
+          type="image/svg+xml"
+          style="margin-top: 80px; width: 70%"
+        ></object>
+      </div>
+    </div>
+    <script src="temp.js"></script>
+  </body>
+</html>
